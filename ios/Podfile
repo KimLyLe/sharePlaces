@@ -32,4 +32,6 @@ target 'sharePlaces' do
 
   use_unimodules!
 
+  pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
+
 end
