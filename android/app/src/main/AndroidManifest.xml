@@ -3,6 +3,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
     <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
@@ -23,7 +24,6 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <!-- END OPTIONAL PERMISSIONS -->
 
     <application
@@ -33,6 +33,9 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
+       <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCPSuI_l750acTDWI2mDQtl5RVYf6aTV_o"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

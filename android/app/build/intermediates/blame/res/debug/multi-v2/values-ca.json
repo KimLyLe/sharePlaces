@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.0.1.aar\\2ee8d5baa5151b997a8eebdb8e04211e\\res\\values-ca\\values.xml",
+                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\ea3af03e08f1e04533725a0bbad79b50\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5652",
+                        "endColumns": "100",
+                        "endOffsets": "5748"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.1.0.aar\\3560c8ea6336be3c90ad5db5b08ebc8a\\res\\values-ca\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\b1f94f04fe100f4ad807e89118ec5f68\\res\\values-ca\\values.xml",
+                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.2.0.aar\\724424bffa935dd75a753713f9fe4f01\\res\\values-ca\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "3993",
                         "endColumns": "193",
                         "endOffsets": "4182"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\ea3af03e08f1e04533725a0bbad79b50\\res\\values-ca\\values-ca.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5652",
-                        "endColumns": "100",
-                        "endOffsets": "5748"
                     }
                 }
             ]

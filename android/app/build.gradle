@@ -117,7 +117,10 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            matchingFallbacks = ['debug', 'release']
         }
+        debug{}
+        innerTest{}
     }
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
@@ -139,10 +142,13 @@ android {
 }
 
 dependencies {
-    implementation project(':@react-native-community_geolocation')
     implementation project(':react-native-screens')
     implementation project(':react-native-reanimated')
+    implementation project(':react-native-maps')
     implementation project(':react-native-gesture-handler')
+    implementation project(':@react-native-community/geolocation')
+    implementation project(path: ':react-native-maps', configuration: 'default')
+    implementation project(':@react-native-community_geolocation')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules

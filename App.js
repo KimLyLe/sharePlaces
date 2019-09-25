@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import FetchLocation from './components/FetchLocation';
 import Geolocation from '@react-native-community/geolocation';
+import UsersMap from './components/UsersMap';
 
 export default function App() {
   getUserLocationHandler = () => {
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <FetchLocation onGetLocation={this.getUserLocationHandler}/>
+      <UsersMap/>
     </View>
   );
 }

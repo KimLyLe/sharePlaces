@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Kim-Ly\\sharePlaces\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.0.1.aar\\2ee8d5baa5151b997a8eebdb8e04211e\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.1.0.aar\\3560c8ea6336be3c90ad5db5b08ebc8a\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\b1f94f04fe100f4ad807e89118ec5f68\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Kim-Ly\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.2.0.aar\\724424bffa935dd75a753713f9fe4f01\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
